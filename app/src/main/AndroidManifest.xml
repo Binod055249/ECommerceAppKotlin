@@ -12,14 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".DownloadingImageActivity">
+        <activity android:name=".RVActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ShowAllJsonObjectActivity"></activity>
+        <activity android:name=".DownloadingImageActivity">
+        </activity>
+        <activity android:name=".ShowAllJsonObjectActivity" />
         <activity android:name=".ShowJsonObjectActivity" />
         <activity android:name=".MainActivity" />
     </application>
